@@ -1,0 +1,850 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+
+body{
+	background-color: rgb(15.938, 15.938, 15.938);
+	color: #fff;
+	padding: 1px 1rem;
+	margin: 1rem;
+}
+
+
+.nav div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/*font-family: 'Roboto', sans-sersif;*/
+}
+
+.nav div div a{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+
+.nav div div ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.nav div div ul li{
+	list-style: none;
+	padding: 0 15px;
+}
+
+.nav div div ul a:hover{
+	width: fit-content;
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 1px 2px;
+	margin: 1px;
+	color: rgb(255, 0, 0);
+}
+
+.nav div div ul li a{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	text-decoration: none;
+}
+
+.nav div div ol{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.nav div div ol li{
+	list-style: none;
+	padding: 0 10px;
+}
+
+.nav div div ol li a{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+.nav span{
+	display: none;
+}
+
+.popular{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.popular h2{
+	font-family: 'Eater', cursive;
+}
+.popular div{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+
+.trend{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.trend h2{
+	font-family: 'Eater', cursive;
+}
+.trend div{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+
+
+.shows{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.shows h2{
+	font-family: 'Eater', cursive;
+}
+.shows div{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+
+
+.movie{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.movie h2{
+	font-family: 'Eater', cursive;
+}
+.movie div{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+
+
+.originals{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.originals h2{
+	font-family: 'Eater', cursive;
+}
+.originals div{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+
+.icons{
+	color: rgb(143.44, 143.44, 143.44); 
+	padding: 0 1rem;
+}
+.icons i{
+	padding: 0 5px;
+	size: 150%;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Lobster', cursive;
+	padding: 1rem 1rem;
+	font-size: 150%;
+	color: rgb(143.44, 143.44, 143.44);
+}
+.bottom div  {
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+}
+
+
+.botom  p{
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+}
+
+
+.account{
+	width: fit-content;
+}
+.account h2{
+	font-family: 'Eater', cursive;
+}
+.account div{
+	font-family: 'The Nautigal', cursive;
+	font-size: 150%;
+}
+.account div a{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+.account button{
+	cursor: pointer;
+}
+.account button:hover{
+	background-color: rgb(255, 0, 0);
+	color: white;
+	padding: 1px;
+	border-radius: 5px;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	color: rgb(143.44, 143.44, 143.44);
+	font-family: 'Lobster', cursive;
+}
+/*h2{
+	font-family: 'Eater', cursive;
+}
+
+.nav{
+	font-family: 'Lobster', cursive;
+}
+
+.bottom{
+
+}*/
+
+@media (max-width: 768px){
+	*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(15.938, 15.938, 15.938);
+	color: #fff;
+	padding: 1px 1rem;
+	margin: 1rem;
+}
+
+	.nav div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*font-family: 'Roboto', sans-sersif;*/
+}
+
+.nav div div a{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+
+.nav div div ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5;
+}
+
+
+.nav div div ul li{
+	list-style: none;
+	padding: 0 15px;
+}
+
+.nav div div ul a:hover{
+	width: 100%;
+	color: rgb(255, 0, 0);
+	border-radius: 5px;
+	padding: 1px 2px;
+	margin: 1px;
+}
+
+.nav div div ul li a{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	text-decoration: none;
+}
+
+.nav div div ol{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav div div ol li{
+	list-style: none;
+	padding: 0 10px;
+}
+
+.nav div div ol li a{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+.nav span{
+	display: none;
+}
+
+.popular{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.popular h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.popular div{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding:  5px 0;
+}
+.popular div img{
+	width: 125px;
+}
+
+.trend{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.trend h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.trend div{
+	display: grid;
+	grid-template-columns: repeat(3, 33%);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px  0;
+}
+.trend div img{
+	width: 125px;
+}
+
+.shows{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.shows h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.shows div{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.shows div img{
+	width: 125px;
+}
+
+.movie{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.movie h2{
+	font-family: 'Eater', cursive;
+	font-size: 90%;
+}
+.movie div{
+	display: grid;
+	grid-template-columns: repeat(3, 33%);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.movie div img{
+	width: 125px;
+}
+
+.originals{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.originals h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.originals div{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.originals div img{
+	width: 125px;
+}
+
+.icons{
+	size: large;
+}
+.bottom {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	font-size: 100%;
+}
+.bottom p{
+	padding: 5px 1rem;
+
+}
+.account{
+	padding: 0.5rem 0;
+}
+.account div div p{
+	display: flex;
+	justify-content: center;
+}
+}
+
+@media (max-width: 480px){
+	*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(15.938, 15.938, 15.938);
+	color: #fff;
+	padding: 1px 1rem;
+	margin: 1rem;
+}	
+
+	.nav div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*font-family: 'Roboto', sans-sersif;*/
+}
+
+.nav div div a{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+
+.nav div div ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5;
+}
+
+
+.nav div div ul li{
+	list-style: none;
+	padding: 0 15px;
+}
+
+.nav div div ul a:hover{
+	width: 100%;
+	color: rgb(255, 0, 0);
+	border-radius: 5px;
+	padding: 1px 2px;
+	margin: 1px;
+}
+
+.nav div div ul li a{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	text-decoration: none;
+}
+
+.nav div div ol{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav div div ol li{
+	list-style: none;
+	padding: 0 10px;
+}
+
+.nav div div ol li a{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+.nav span{
+	display: none;
+}
+
+.popular{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.popular h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.popular div{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding:  5px 0;
+}
+.popular div img{
+	width: 125px;
+}
+
+.trend{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.trend h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.trend div{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px  0;
+}
+.trend div img{
+	width: 125px;
+}
+
+.shows{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.shows h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.shows div{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.shows div img{
+	width: 125px;
+}
+
+.movie{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.movie h2{
+	font-family: 'Eater', cursive;
+	font-size: 120%;
+}
+.movie div{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.movie div img{
+	width: 125px;
+}
+
+.originals{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.originals h2{
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.originals div{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.originals div img{
+	width: 125px;
+}
+
+.icons{
+	size: large;
+}
+.bottom {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	font-size: 100%;
+}
+.bottom p{
+	padding: 5px 1rem;
+
+}
+.account div div p{
+	font-size: 125%;
+}
+}
+
+@media (max-width: 320px){
+	*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(15.938, 15.938, 15.938);
+	color: #fff;
+	padding: 1px 0.5rem;
+	margin: 0.5rem;
+}	
+
+	.nav div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*font-family: 'Roboto', sans-sersif;*/
+}
+
+.nav div div a{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+
+.nav div div ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5;
+}
+
+
+.nav div div ul li{
+	list-style: none;
+	padding: 0 15px;
+}
+
+.nav div div ul a:hover{
+	width: 100%;
+	color: rgb(255, 0, 0);
+	border-radius: 5px;
+	padding: 1px 2px;
+	margin: 1px;
+}
+
+.nav div div ul li a{
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	text-decoration: none;
+}
+
+.nav div div ol{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav div div ol li{
+	list-style: none;
+	padding: 0 10px;
+}
+
+.nav div div ol li a{
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+}
+.nav span{
+	display: none;
+}
+
+.popular{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.popular h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.popular div{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding:  5px 0;
+}
+.popular div img{
+	width: fit-content;
+}
+
+.trend{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.trend h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.trend div{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px  0;
+}
+.trend div img{
+	width: fit-content;
+}
+
+.shows{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.shows h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.shows div{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.shows div img{
+	width: fit-content;
+}
+
+.movie{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.movie h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Eater', cursive;
+	font-size: 90%;
+}
+.movie div{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.movie div img{
+	width: fit-content;
+}
+
+.originals{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.originals h2{
+	display: flex;
+	justify-content: center;
+	font-family: 'Eater', cursive;
+	font-size: 125%;
+}
+.originals div{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px; 
+	justify-items: center;
+	padding: 5px 0;
+}
+.originals div img{
+	width: fit-content;
+}
+
+.icons{
+	size: large;
+}
+.bottom {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;*/
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	font-size: 80%;
+}
+.bottom p{
+	padding: 5px 1rem;
+
+}
+.account{
+	padding: 0.5rem 0;
+}
+.account div div p{
+	display: flex;
+	justify-content: center;
+	font-size: 80%;
+}
+}
